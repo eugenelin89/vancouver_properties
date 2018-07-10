@@ -12,7 +12,7 @@ dfp <- read.csv("property_tax_report.csv")
 ```
 
 ## Vancouver Properties
-Histogram shwoing number of properties built between 1800 and 2018 for Vancouver, British Columbia, Canada.
+Histogram showing number of properties built between 1800 and 2018 for Vancouver, British Columbia, Canada.
 ```{r plot, warning=FALSE, echo=FALSE}
 #plot_ly(mtcars, x = mtcars$wt, y = mtcars$mpg, mode = "markers", type="scatter")
 plot_ly(dfp, x = dfp$YEAR_BUILT, type = "histogram" )
